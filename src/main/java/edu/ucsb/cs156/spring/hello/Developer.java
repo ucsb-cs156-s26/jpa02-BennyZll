@@ -16,7 +16,7 @@ public class Developer {
      */
 
     public static String getName() {
-        return "Benny.";
+        return "Benny";
     }
 
     /**
@@ -26,7 +26,7 @@ public class Developer {
 
     public static String getGithubId() {
         // TODO: Change this to your github id
-        return "BennyZll.";
+        return "BennyZll";
     }
 
     /**
@@ -35,11 +35,10 @@ public class Developer {
      */
     
     public static Team getTeam() {
-        // TODO: Change this to your team name
         Team team = new Team("s26-14");
         team.addMember("Abhijeet");
         team.addMember("Alessandro");
-        team.addMember("Benny.");
+        team.addMember("Benny");
         team.addMember("Brian R");
         team.addMember("Nathan C");
         team.addMember("Vishva");
